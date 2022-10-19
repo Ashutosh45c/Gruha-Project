@@ -45,16 +45,20 @@ body{
   height: 10rem;
 }
 .discription{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info{
   background-color: #FFEBAD;
   font-family: montserrat;
   padding: 1rem 0 0 1rem;
   display: none;
+  position: absolute;
+  top : 2rem;
+  left : 2rem;
+  width : 40rem;
 
-}
-.info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 .im{
   display: flex;

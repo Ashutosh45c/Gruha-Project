@@ -1,3 +1,3 @@
 $("#ingredients").click(function(){
-  $(".discription").slideToggle();
+  $(".info").slideToggle();
 })
