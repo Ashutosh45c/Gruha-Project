@@ -45,6 +45,7 @@ body{
   height: 10rem;
 }
 .discription{
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -52,13 +53,10 @@ body{
 .info{
   background-color: #FFEBAD;
   font-family: montserrat;
-  padding: 1rem 0 0 1rem;
+  padding: 1rem 0 0 4rem;
   display: none;
-  position: absolute;
-  top : 2rem;
-  left : 2rem;
-  width : 40rem;
 
+  max-height: 30rem;
 }
 .im{
   display: flex;
