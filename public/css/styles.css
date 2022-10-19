@@ -22,7 +22,7 @@ body{
 
 }
 .main-body{
-  padding: 3rem 0 0;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -46,6 +46,22 @@ body{
   height: 10rem;
 }
 .discription{
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info{
+  background-color: #FFEBAD;
+  font-family: montserrat;
+  padding: 1rem 0 0 1rem;
+  display: none;
+  position: absolute;
+  top : 2rem;
+  left : 2rem;
+  width : 40rem;
+
+
 
   display: flex;
   flex-direction: row;
@@ -58,6 +74,7 @@ body{
   display: none;
 
   max-height: 30rem;
+
 }
 .im{
   display: flex;
@@ -112,7 +129,7 @@ h3{
     width: 22.5rem;
     padding: 1rem;
     background: #C3F8FF;
-    border: 0;
+    border: 1rem;
 }
 .ing{
   width: 20rem;
